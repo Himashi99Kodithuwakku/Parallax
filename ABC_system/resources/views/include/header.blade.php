@@ -1,4 +1,7 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+
+<nav class="navbar
+navbar-expand-lg bg-body-tertiary">
 
     <div class="container-fluid">
         <a class="navbar-brand" href="#">ABC</a>
@@ -18,10 +21,9 @@
                         Dropdown
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href='mobile.blade.php'>Mobiles</a></li>
+                        <li><a class="dropdown-item" href="#">Laptops</a></li>
+                        <li><a class="dropdown-item" href="#">Tablets</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

@@ -25,3 +25,7 @@ Route::post('/registration',[AuthManager::class,'registrationPost'])->name('regi
 
 Route::get('/logout',[AuthManager::class,'logout'])->name('logout');
 
+Route::get('/mobile', function () {
+    return view('mobile');
+});
+
