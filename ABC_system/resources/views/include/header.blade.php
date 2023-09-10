@@ -14,11 +14,11 @@ navbar-expand-lg bg-body-tertiary">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="#">About us</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                        Categories
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href='mobile.blade.php'>Mobiles</a></li>
@@ -26,14 +26,13 @@ navbar-expand-lg bg-body-tertiary">
                         <li><a class="dropdown-item" href="#">Tablets</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
             </ul>
+           
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
+
         </div>
     </div>
 
