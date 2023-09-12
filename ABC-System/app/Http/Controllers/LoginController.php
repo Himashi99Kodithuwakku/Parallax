@@ -20,12 +20,11 @@ class LoginController extends Controller
             
         ]);
 
-        if(Auth::attempt($credentials)){
 
+        if(Auth::attempt($credentials)){
             return view('login.home');
         }
         return "</h2>Username or Password Invalid</h2>";
-        
     }
 
 }

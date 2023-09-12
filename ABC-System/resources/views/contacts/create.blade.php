@@ -1,8 +1,10 @@
 @extends('layout')
+@section('title','ABC')
 @section('content')
 
 
     <div class="card" style="width:450px ">
+
         <div class="card-header">Registration</div>
         <div class="card-body">
 
@@ -19,7 +21,7 @@
         <label>Password</label>
         <input type="password" name="password" id="password" class="form-control"><br>
 
-        <input type="submit" value="Submit" class="btn-btn-success">
+        <input type="submit" value="Buy" class="btn-btn-success">
 
         </form> 
     </div>
